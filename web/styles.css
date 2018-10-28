@@ -1,0 +1,60 @@
+.body {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    background-color: floralwhite;
+}
+
+form input {
+    margin-bottom: 5px;
+}
+
+table {
+    background-color: floralwhite;
+}
+
+tr:nth-child(2n) {
+    background-color:black;
+    color: white;
+}
+
+td {
+    height: 2rem;
+    padding: .3rem;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fieldName {
+    font-weight: 600;
+}
+
+.fieldName:after {
+    content: ": ";
+}
+
+a.button {
+    border-radius: 5px;
+    background-color: darkblue;
+    color: #fff;
+    text-decoration: none;
+    margin: .5rem;
+    padding: .8rem;
+    font-weight: 600;
+    transition: all 250ms;
+}
+
+a.button:hover {
+    opacity: .7;
+}
